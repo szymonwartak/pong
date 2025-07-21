@@ -34,13 +34,13 @@ The game will open automatically in your default browser at `http://localhost:90
 npm run build
 ```
 
-2. The optimized files will be in the `dist` directory. You can serve them using any web server. For example:
+2. The optimized files will be in the `public` directory. You can serve them using any web server. For example:
 ```bash
 # Using Python 3
-python -m http.server --directory dist 8080
+python -m http.server --directory public 8080
 
 # Or using Node.js serve package
-npx serve dist
+npx serve public
 ```
 
 The production build includes:
